@@ -70,7 +70,7 @@ button:hover{
   width: 26.65vw;
   border: none;
   background-image: url(./assets/Search.png);
-  background-size: 13px 13px;
+  background-size: 5% auto;
   background-position-x: 0.83vw; /* Позиціонування іконки */
   background-position-y: 0.83vw;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ button:hover{
   height: 3.3vw;
   cursor: pointer;
   border-radius: 50%;
-  background-size: 13px 13px;
+  background-size: 50% auto;
   background-repeat: no-repeat;
   background-position-x: 0.78vw; 
   background-position-y: 0.78vw;
@@ -138,7 +138,7 @@ select{
 option{
   background: url(./assets/Arrow-down.png);
   background-repeat: no-repeat;
-  background-size: 5px 5px;
+  background-size: 5% auto;
 }
 .Image_Gallery{
   display: flex;
@@ -436,7 +436,7 @@ option{
   border-radius: 50%;
   box-shadow: 0 0.27vw 0.97vw 0.02vw rgba(0, 0, 0, 0.16);
   background-image: url(./assets/Left.png);
-  background-size: 13px 13px;
+  background-size: 50% auto;
   background-repeat: no-repeat;
   background-position-x: 0.78vw; 
   background-position-y: 0.78vw;
@@ -569,13 +569,13 @@ swiper-slide {
   margin: 0;
 }
 .furniture-block1{
-  width: 46.67vw;
+  width: 77.42vh;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1.1vw 1.1vw;
 }
 .furniture-block2{
-  width: 30.69vw;
+  width: 50.9vh;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 1.1vw 1.1vw;
@@ -587,20 +587,20 @@ swiper-slide {
 }
 .item1{
   width: 14.24vw;
-  height: 26.53vw;
+  height: 26.52vw;
 }
 .item2{
-  margin-top: 4.86vw;
+  margin-top: 8.1vh;
   margin-left: -7.43vw;
   width: 31.32vw;
-  height: 21.7vw;
+  height: 21.67vw;
 }
 .item3{
  width: 21.7vw;
  height: 22.43vw;
 }
 .item4{
-  width: 23.9vw;
+  width: 23.89vw;
   height: 16.8vw;
 }
 .item6{
@@ -731,7 +731,7 @@ swiper-slide {
   position: absolute;
   top: 19.8vw;
   z-index: 10;
-  background-size: 13px 13px;
+  background-size: 50% auto;
   background-repeat: no-repeat;
   background-position-x: 0.78vw; 
   background-position-y: 0.78vw;
@@ -761,74 +761,4 @@ swiper-slide {
 }
 .pagination-dot.active {
   background-color: rgba(232, 159, 113, 1);
-}
-
-@media (min-width: 700px) and (max-width: 1140px) {
-  .furniture-block{
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-  .furniture-block1{
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-bottom: 6.94vw;
-    padding-top: 3.47vw;
-  }
-  .item1{
-    margin-left: -50vw;
-  }
-  .item2{
-    margin:-20vw 0 25vw -12.64vw;
-  }
-  .item4{
-    margin: -15vw 0 15vw -50vw;
-  }
-  .item6{
-    margin-left: 27.78vw;
-    margin-top: -20.83vw;
-  }
-  .item7{
-    margin:2.7vw 0 18.86vw 25.72vw;
-  }
-  .item8{
-    margin-left: 0;
-    margin-top: -20.89vw;
-  }
-  .item9{
-    margin-left: -13.89vw;
-    margin-top: -13.89vw;
-    margin-bottom: 15.89vw;
-  }
-  .Top_Nav input{
-    background-size: 8px 8px;
-  }
-}
-@media (max-width: 699px) {
-  .furniture-block{
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-  .furniture-block1, .furniture-block2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6.94vw;
-    padding-top: 3.47vw;
-  }
-  .item1, .item2, .item3, .item4, .item6, .item7, .item8, .item9{
-      margin-bottom: 50vh;
-  }
-  .furniture-photo{
-    margin-left: 50%;
-  }
-  .line{
-    margin-top: 1vw;
-  }
-  .Top_Nav input, .img-insp-button1, .button-block .button1,.button2, .prev-button,
-  .next-button{
-    background-size: 4px 4px;
-  }
 }
