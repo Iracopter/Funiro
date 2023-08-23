@@ -15,17 +15,17 @@ function Share(){
             <h2>#FuniroFurniture</h2>
             <div className="furniture-block">
                 <div className="furniture-block1">
-                    <div className="item1"><img src={share1} alt="furniture"/></div>
-                    <div className="item2"><img src={share2} alt="furniture"/></div>
-                    <div className="item3"><img src={share3} alt="furniture"/></div>  
-                    <div className="item4"><img src={share4} alt="furniture"/></div>
+                    <div><img src={share1} alt="furniture" className="item1"/></div>
+                    <div><img src={share2} alt="furniture" className="item2"/></div>
+                    <div><img src={share3} alt="furniture" className="item3"/></div>  
+                    <div><img src={share4} alt="furniture" className="item4"/></div>
                 </div>
                 <img src={share5} alt="furniture" className="furniture-photo"/>
                 <div className="furniture-block2">
-                    <div className="item6"><img src={share6} alt="furniture"/></div>
-                    <div className="item7"><img src={share7} alt="furniture"/></div>
-                    <div className="item8"><img src={share8} alt="furniture"/></div>  
-                    <div className="item9"><img src={share9} alt="furniture"/></div>
+                    <div><img src={share6} alt="furniture" className="item6"/></div>
+                    <div><img src={share7} alt="furniture" className="item7"/></div>
+                    <div><img src={share8} alt="furniture" className="item8"/></div>  
+                    <div><img src={share9} alt="furniture" className="item9"/></div>
                 </div>
             </div>
             <div className="line"></div>
